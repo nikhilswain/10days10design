@@ -4,22 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css"
+      integrity="sha512-+WF6UMXHki/uCy0vATJzyA9EmAcohIQuwpNz0qEO+5UeE5ibPejMRdFuARSrl1trs3skqie0rY/gNiolfaef5w=="
+      crossorigin="anonymous"
     />
     <title>Travel with me</title>
   </head>
   <body>
-    <nav class="w-full h-20 bg-white fixed flex sm:justify-start justify-between items-center px-10">
-      <div>
-        <img src="assets/logo.png" alt="TravelAround" class="w-8" />
-      </div>
-      <div class=" inline sm:hidden cursor-pointer"><img src="assets/menu.svg" alt="menu"></div>
-      <ul class="hidden sm:flex mr-5 md:ml-10">
-        <li class=" px-8"><a href="#">Download</a></li>
-        <li class=" px-8"><a href="#">Support</a></li>
-        <li class=" px-8"><a href="#">Philosphy</a></li>
-      </ul>
-    </nav>
+    <div class="h-auto sm:grid grid-cols-12 grid-flow-col relative">
+      <nav
+        class="col-start-1 col-end-12 h-20 bg-white sticky top-0 flex sm:justify-start justify-between items-center px-10 opacity-75"
+      >
+        <div>
+          <img src="assets/logo.png" alt="TravelAround" class="w-8" />
+        </div>
+        <div class="inline sm:hidden cursor-pointer">
+          <img src="assets/menu.svg" alt="menu" />
+        </div>
+        <ul class="hidden sm:flex mr-5 md:ml-10">
+          <li class="px-8"><a href="#">Download</a></li>
+          <li class="px-8"><a href="#">Support</a></li>
+          <li class="px-8"><a href="#">Philosphy</a></li>
+        </ul>
+      </nav>
+      <main class="w-full h-screen col-start-1 col-end-12">
+        <section
+          class="flex flex-col-reverse sm:flex-row sm:h-full sm:items-center"
+        >
+          <header class="text-center mt-5 px-5">
+            <div class="text-xl sm:text-3xl font-extrabold">
+              <h1>SAY IT</h1>
+              <h1>AND GET IT</h1>
+            </div>
+            <p class="mt-5 text-sm sm:text-base">
+              Once the travel bug bites there is no know antidoe, and I know
+              that I shall be happily infected until the end of my life.
+            </p>
+          </header>
+          <div>
+            <img
+              src="assets/picture.png"
+              alt="TraveTheWorld"
+              class="w-full h-80 sm:h-auto"
+            />
+          </div>
+        </section>
+      </main>
+      <footer
+        class="sm:h-full sm:w-auto w-full h-16 bg-gray-300 col-start-12 col-end-13 sm:block absolute bottom-0 sm:static row-span-3"
+      >
+        <ul
+          class="w-full h-full flex justify-around sm:flex-col sm:justify-end items-center sm:py-5"
+        >
+          <li class="sm:mb-4">
+            <a href="#linkedin"
+              ><img src="assets/linkedin.svg" alt="linkedin" class="w-8"
+            /></a>
+          </li>
+          <li class="sm:mb-4">
+            <a href="#github"
+              ><img src="assets/twitter.svg" alt="twittet" class="w-8"
+            /></a>
+          </li>
+          <li class="sm:mb-4">
+            <a href="#twitter"
+              ><img src="assets/github.svg" alt="github" class="w-8"
+            /></a>
+          </li>
+          <li>
+            <a href="#medium"
+              ><img src="assets/medium.svg" alt="medium" class="w-8"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
   </body>
 </html>
