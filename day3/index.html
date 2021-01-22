@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css"
+      integrity="sha512-+WF6UMXHki/uCy0vATJzyA9EmAcohIQuwpNz0qEO+5UeE5ibPejMRdFuARSrl1trs3skqie0rY/gNiolfaef5w=="
+      crossorigin="anonymous"
+    />
+    <title>My Coffee Shop</title>
+  </head>
+  <body style="background: #3c3535">
+    <header>
+      <nav>
+        <ul class="py-5 flex relative justify-end align-center mx-2 md:mx-8">
+          <li class="absolute left-0">
+            <a href="#"><img src="assets/menu.svg" alt="menu" /></a>
+          </li>
+          <li class="px-2 sm:px-5">
+            <a href="#"><img src="assets/search.svg" alt="search" /></a>
+          </li>
+          <li class="px-2 sm:px-5">
+            <a href="#"><img src="assets/user.svg" alt="account" /></a>
+          </li>
+          <li class="px-2 sm:px-5">
+            <a href="#"><img src="assets/cart.svg" alt="cart" /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <header
+          class="text-center text-xl sm:text-3xl text-white tracking-wider mt-16"
+        >
+          <h1>Day Starts With Coffee</h1>
+          <h1>Day Restarts With Coffee</h1>
+        </header>
+        <div class="relative flex justify-center mt-16 h-96">
+          <div class="w-64 h-64 rounded-full border-2 border-yellow-800"></div>
+          <img
+            src="assets/coffeeBag.png"
+            alt="coffeepacket"
+            class="h-80 absolute top-20"
+          />
+        </div>
+      </section>
+      <section class="flex justify-center items-center mt-10">
+        <div class="hidden sm:block">
+          <img src="assets/coffeeBeans.png" alt="purecoffeebeans" />
+        </div>
+        <div class="w-3/4 lg:w-1/2 sm:5 md:px-12 tracking-wider">
+          <h1 class="text-2xl text-yellow-700">
+            Exceeding the Standard
+            <span class="text-white">as the Best Coffee in the World</span>
+          </h1>
+          <p class="text-sm text-yellow-700 mt-2">Est. 1760</p>
+          <p class="text-sm text-white mt-4 leading-relaxed italic">
+            Nescafe has ensured that people around the world get to enjoy some
+            of the best coffee flavours with its lineup of coffees, such as
+            Nescafe Gold, Nescafe Sunrise, Nescafe Classic and Nescafe Gold
+            Blend, among others
+          </p>
+          <button
+            class="text-white bg-gray-800 hover:bg-gray-700 border border-gray-600 p-2 mt-3"
+          >
+            OUR HISTORY
+          </button>
+        </div>
+      </section>
+      <section></section>
+    </main>
+  </body>
+</html>
