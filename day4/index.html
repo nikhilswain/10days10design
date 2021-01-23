@@ -14,15 +14,21 @@
     <style>
       .home {
         background: url("assets/home.png");
-        background-size: cover;
         background-repeat: no-repeat;
         background-position: center top;
+        background-size: cover;
       }
       .music {
         background: url("assets/music.png");
-        background-size: cover;
         background-repeat: no-repeat;
         background-position: center top;
+        background-size: cover;
+      }
+      .join {
+        background: url("assets/emailbg.png");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
       }
     </style>
   </head>
@@ -75,18 +81,66 @@
             <p class="my-8 text-xl text-white">THAT WON'T SAVE US</p>
             <a
               href="#"
-              class="text-white text-base py-4 px-8 border-2 border-white mt-4"
+              class="text-white text-base py-4 px-8 border-2 border-white mt-4 hover:text-black hover:bg-white"
               >GET IT NOW</a
             >
           </div>
         </div>
-        <a href="#"
+        <a
+          href="#"
           class="text-white text-xl absolute bottom-5 right-10 tracking-widest underline"
           >SEE ALL MUSIC</a
         >
       </section>
-      <section></section>
-      <section></section>
+      <section
+        class="h-full w-full join flex sm:flex-row flex-col justify-around items-center sm:px-12 md:px-32 lg:px-52"
+      >
+        <div class="mt-32 sm:mt-0">
+          <input
+            type="email"
+            name="email"
+            placeholder="EMAIL"
+            class="w-60 sm:w-96 text-2xl tracking-widest placeholder-white py-5 border-b border-white text-white focus-within:border-transparent bg-transparent outline-none focus:border-white uppercase"
+          />
+        </div>
+        <div class="text-white text-xl text-center mb-32 sm:mb-0">
+          <a
+            href="#"
+            class="py-5 px-12 text-white border border-white hover:bg-white hover:text-black"
+            >JOIN</a
+          >
+          <a href="#" class="mt-12 block">TERMS</a>
+        </div>
+      </section>
+      <section class="h-full video relative">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          class="h-full w-full object-cover absolute top-0 left-0 -Z-10"
+        >
+          <source src="assets/video.mp4" type="video/mp4" />
+        </video>
+        <div
+          class="text-2xl sm:text-3xl text-white transform -rotate-90 absolute top-1/2 -translate-y-1/2 tracking-widest absolute"
+        >
+          VIDEO
+        </div>
+        <div class="w-full h-full absolute top-0 left-0">
+          <a
+            href="#"
+            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+          >
+            <img src="assets/playbutton.svg" alt="playVideo" />
+          </a>
+          <a
+            href="#"
+            class="text-white text-xl absolute bottom-5 right-10 tracking-widest underline"
+            >SEE ALL VIDEOS</a
+          >
+        </div>
+      </section>
       <section></section>
       <section></section>
       <section></section>
