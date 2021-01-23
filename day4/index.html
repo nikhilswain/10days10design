@@ -30,9 +30,21 @@
         background-position: center top;
         background-size: cover;
       }
+      .merch {
+        background: url("assets/merch.png");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+      }
+      .social {
+        background: url("assets/handlesbg.png");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+      }
     </style>
   </head>
-  <body class="relative">
+  <body class="relative overflow-x-hidden">
     <header
       class="w-full flex justify-between items-center px-8 py-12 fixed top-0 z-10"
     >
@@ -141,9 +153,64 @@
           >
         </div>
       </section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section class="w-full h-full relative merch">
+        <div
+          class="text-2xl sm:text-3xl text-white transform -rotate-90 absolute top-1/2 -translate-y-1/2 tracking-widest absolute"
+        >
+          MERCH
+        </div>
+        <div
+          class="h-full w-full flex flex-col sm:flex-row justify-around items-center text-center text-2xl text-white tracking-wider absolute top-0 left-0"
+        >
+          <div class="w-2/3 sm:w-2/5">
+            <a href="#"
+              ><img
+                src="assets/tee.png"
+                alt="Tee"
+                class="hover:opacity-50 transition ease duration-500"
+            /></a>
+            <h1 class="hidden sm:block">TEE</h1>
+          </div>
+          <div class="w-2/3 sm:w-2/5">
+            <a href="#"
+              ><img
+                src="assets/jersey.png"
+                alt="Hoodie"
+                class="hover:opacity-50 transition ease duration-500"
+            /></a>
+            <h1 class="hidden sm:block">HOODIE</h1>
+          </div>
+        </div>
+      </section>
+      <section class="h-full w-full social">
+        <ul class="w-full h-full flex justify-center items-end pb-12">
+          <li>
+            <a href="#"
+              ><img src="assets/apple.svg" alt="applemusic" class="w-8"
+            /></a>
+          </li>
+          <li class="px-3">
+            <a href="#"
+              ><img src="assets/youtube.svg" alt="youtube" class="w-8"
+            /></a>
+          </li>
+          <li class="px-3">
+            <a href="#"
+              ><img src="assets/twitter.svg" alt="twitter" class="w-8"
+            /></a>
+          </li>
+          <li class="px-3">
+            <a href="#"
+              ><img src="assets/spotify.svg" alt="spotify" class="w-8"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="assets/facebook.svg" alt="fb" class="w-8"
+            /></a>
+          </li>
+        </ul>
+      </section>
     </main>
   </body>
 </html>
