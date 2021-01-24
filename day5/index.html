@@ -11,27 +11,93 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body class="bg-gray-100">
     <header>
-      <nav class="w-full py-8 ">
+      <nav class="w-full py-8">
         <ul class="flex justify-end items-center relative">
-          <li class="pl-5 absolute left-0">
+          <li class="pl-5 absolute left-0 sm:hidden">
             <a href="#"><img src="assets/menu.svg" alt="menu" /></a>
           </li>
-          <li class="px-5 hidden md:block text-xl text-gray-900">
+          <li class="px-5 hidden md:block text-base text-black">
             <a href="#">HOME</a>
           </li>
-          <li class="px-5 hidden md:block text-xl text-gray-900">
+          <li class="px-5 hidden md:block text-base text-black">
             <a href="#">ABOUT</a>
           </li>
-          <li class="px-5 text-base sm:text-xl text-gray-600">
+          <li class="px-5 text-lg sm:text-base text-gray-600">
             <a href="#">BLOG</a>
           </li>
-          <li class="px-5 hidden md:block text-xl text-gray-900">
+          <li class="px-5 hidden md:block text-base text-black">
             <a href="#">CONTACTS</a>
           </li>
         </ul>
       </nav>
     </header>
+    <div
+      class="font-medium py-32 text-center sm:text-left sm:pl-24 text-2xl sm:text-3xl md:text-4xl tracking-wide"
+    >
+      <h1 class="py-1">Read All My</h1>
+      <h1>Articles In One Place</h1>
+    </div>
+    <section>
+      <header>
+        <h1 class="sm:pl-20 text-xl font-bold text-center sm:text-left">Latest Articles</h1>
+      </header>
+      <div class="w-full sm:w-4/5 lg:w-full py-32 m-auto">
+        <div
+          class="flex flex-col lg:flex-row justify-evenly items-center px-3 sm:px-0 md:p-8"
+        >
+          <div class="w-full">
+            <img
+              src="assets/articlepicture.png"
+              alt="articleBg"
+              class="w-full h-56 lg:h-48"
+            />
+          </div>
+          <div class="lg:px-10 pt-4">
+            <h1 class="text-xl sm:text-2xl md:text-3xl text-black">How to Learn Code</h1>
+            <p class="text-base pt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              laudantium assumenda cumque facilis atque? Sed pariatur sit
+              maiores! Est sit pariatur porro unde optio tempore dolore soluta,
+              amet quae necessitatibus.Labore veritatis quas ea sit quos
+              tempore! <br />
+              Nulla aliquam consectetur reprehenderit hic aliquid fugit beatae
+              eum officiis atque. A vero quaerat nihil, deleniti illo provident
+              laboriosam sint quasi dignissimos voluptatum?
+            </p>
+            <p class="text-base pt-4">5th Jan 2020</p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col lg:flex-row justify-evenly items-center px-3 sm:px-0 md:p-8 pt-20"
+        >
+          <div class="w-full">
+            <img
+              src="assets/articlepicture-1.png"
+              alt="articleBg"
+              class="w-full h-56 lg:h-48"
+            />
+          </div>
+          <div class="lg:px-10 pt-4">
+            <h1 class="text-xl sm:text-2xl md:text-3xl text-black">Celebrate Christmas The Right Way</h1>
+            <p class="text-base pt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              laudantium assumenda cumque facilis atque? Sed pariatur sit
+              maiores! Est sit pariatur porro unde optio tempore dolore soluta,
+              amet quae necessitatibus.Labore veritatis quas ea sit quos
+              tempore! <br />
+              Nulla aliquam consectetur reprehenderit hic aliquid fugit beatae
+              eum officiis atque. A vero quaerat nihil, deleniti illo provident
+              laboriosam sint quasi dignissimos voluptatum?
+            </p>
+            <p class="text-base pt-4">25th Dec 2019</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-8">
+        <h1 class="text-center text-xl sm:text-2xl">Nikhil Kumar Swain</h1>
+    </footer>
   </body>
 </html>
