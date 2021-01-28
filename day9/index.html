@@ -71,16 +71,18 @@
       </div>
     </main>
     <section class="relative mt-20 w-full">
-      <div class="flex flex-col sm:flex-row justify-between px-12 items-center sm:items-end sm:py-16 md:py-0">
-        <div class="z-20 w-3/4 sm:w-auto" >
+      <div
+        class="flex flex-col sm:flex-row justify-between px-12 items-center sm:items-end sm:py-16 md:py-0"
+      >
+        <div class="z-20 w-3/4 sm:w-auto">
           <img
             src="assets/aboutpic.png"
             alt="aboutProfilepic"
-            class="w-full sm:w-56 md:w-80 "
+            class="w-full sm:w-56 md:w-80"
           />
         </div>
         <div
-          class="mt-5 sm:mt-0 bg-black bg-opacity-70 text-white text-base px-4 py-8 sm:w-60 md:w-96 z-20"
+          class="mt-5 sm:mt-0 bg-black bg-opacity-80 text-white text-base px-4 py-8 sm:w-60 md:w-96 z-20"
         >
           <p>
             I am a designer a 3d Illustrator. I create 3d models using Blender a
@@ -115,6 +117,107 @@
       <div
         class="triangle3 absolute top-14 right-14 transform -rotate-12"
       ></div>
+    </section>
+    <section class="mt-20">
+      <div class="text-center font-extrabold text-2xl pt-20">
+        <h1>Welcome To MyLAND</h1>
+      </div>
+      <div
+        class="py-20 grid grid-cols-2 md:grid-cols-3 place-items-center gap-10 sm:gap-14 px-2 sm:px-0"
+      >
+        <div class="w-32 h-32 sm:w-64 sm:h-56 bg-black relative">
+          <img
+            src="assets/amoungus.png"
+            alt="amongUs3dModel"
+            class="z-20 absolute h-full w-full"
+          />
+          <div
+            class="w-full h-full bg-green-300 absolute top-4 sm:right-4 z-10"
+          ></div>
+        </div>
+        <div class="w-32 h-32 sm:w-64 sm:h-56 bg-black relative z-20">
+          <img
+            src="assets/flowervase.png"
+            alt="flowervase3dModel"
+            class="z-20 absolute h-full w-full"
+          />
+          <div
+            class="w-full h-full bg-blue-300 absolute top-4 sm:right-4 z-10"
+          ></div>
+        </div>
+        <div class="w-32 h-32 sm:w-64 sm:h-56 bg-black relative">
+          <img
+            src="assets/3dmodel 1.png"
+            alt="aeroplane3dModel"
+            class="z-20 absolute h-full w-full"
+          />
+          <div
+            class="w-full h-full bg-red-400 absolute top-4 sm:right-4 z-10"
+          ></div>
+        </div>
+        <div class="w-32 h-32 sm:w-64 sm:h-56 bg-black relative">
+          <img
+            src="assets/kunai.png"
+            alt="kunai3dModel"
+            class="absolute z-20 h-full w-full"
+          />
+          <div
+            class="w-full h-full bg-purple-500 absolute top-4 sm:left-4"
+          ></div>
+        </div>
+        <div class="w-32 h-32 sm:w-64 sm:h-56 bg-black relative">
+          <img
+            src="assets/snowman.png"
+            alt="snowman3dModel"
+            class="absolute z-20 h-full w-full"
+          />
+          <div class="w-full h-full bg-pink-500 absolute top-4 sm:left-4"></div>
+        </div>
+        <div class="w-32 h-32 sm:w-64 sm:h-56 bg-black relative">
+          <img
+            src="assets/donut.png"
+            alt="donut3dModel"
+            class="absolute z-20 h-full w-full"
+          />
+          <div class="w-full h-full bg-red-300 absolute top-4 sm:left-4"></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="pt-20">
+        <h1 class="text-center font-extrabold text-2xl">Let's Talk</h1>
+      </div>
+      <div
+        class="flex justify-around items-center flex-col-reverse sm:flex-row py-14"
+      >
+        <form class="flex flex-col px-8 w-full sm:w-1/2">
+          <label for="name" class="mt-12 mb-2 text-xl">Name</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Chrissy"
+            class="border border-black px-5 py-1 text-xl rounded"
+          />
+          <label for="name" class="mt-12 mb-2">Email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="chrissycos36@gmail.com"
+            class="border border-black px-5 py-1 text-xl rounded"
+          />
+          <label for="msg" class="mt-12 mb-2 text-xl">Message</label>
+          <textarea
+            name="msg"
+            cols="50"
+            rows="5"
+            placeholder="Drop a message I open to chat"
+            class="border border-black rounded py-4 px-5"
+          ></textarea>
+        </form>
+        <div class="w-3/4 sm:w-1/2">
+          <img src="assets/connect.png" alt="connetWithMe" />
+        </div>
+      </div>
     </section>
   </body>
 </html>
