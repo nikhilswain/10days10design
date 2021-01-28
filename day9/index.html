@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css"
+      integrity="sha512-+WF6UMXHki/uCy0vATJzyA9EmAcohIQuwpNz0qEO+5UeE5ibPejMRdFuARSrl1trs3skqie0rY/gNiolfaef5w=="
+      crossorigin="anonymous"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <main class="min-h-screen h-screen relative">
+      <header class="w-full sm:h-full sm:absolute left-0">
+        <nav class="h-full p-2 sm:p-0">
+          <li class="inline sm:hidden">
+            <a href="#"
+              ><img src="assets/menu.svg" alt="menu" class="inline"
+            /></a>
+          </li>
+          <ul class="hidden sm:flex justify-evenly flex-col h-full">
+            <li class="transform -rotate-90"><a href="#">HOME</a></li>
+            <li class="transform -rotate-90"><a href="#">ABOUT</a></li>
+            <li class="transform -rotate-90"><a href="#">MYLAND</a></li>
+            <li class="transform -rotate-90"><a href="#">LET'S TALK</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div
+        class="absolute sm:left-24 flex flex-col-reverse md:flex-row justify-around items-center h-full py-5 md:py-0"
+      >
+        <div>
+          <p class="text-gray-700 text-lg sm:text-2xl">Hi there,</p>
+          <p class="text-gray-800 text-xl sm:text-3xl">
+            I am <span class="text-black font-bold">Nikhil Kumar Swain</span>
+          </p>
+          <p class="text-gray-900 text-2xl sm:text-4xl">
+            A 3d designer and Illustrator
+          </p>
+        </div>
+        <div class="w-4/5 sm:w-3/5 md:w-1/3 lg:w-2/5">
+          <img src="assets/boy.png" alt="a 3d photo of a boy" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
